@@ -1,0 +1,16 @@
+public class Bendicut {
+
+    public void sound() {
+        System.out.println("Бендикут выдал звук");
+    }
+
+    public void sound(String message) {
+        System.out.println("Бендикул крикнул: " + message);
+    }
+
+    public static void main(String[] args) {
+        Bendicut myBendicut = new Bendicut();
+        myBendicut.sound();
+        myBendicut.sound("Шуншунчики");
+    }
+}
